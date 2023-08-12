@@ -1,0 +1,542 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668921698181488, "dur": 11919003, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921698183526, "dur": 28436, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921698212328, "dur": 54239, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921698266613, "dur": 537041, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921698803656, "dur": 11286499, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921710090193, "dur": 10296, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921725630116, "dur": 8202814, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921725630537, "dur": 9608, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921725640148, "dur": 47908, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921725688059, "dur": 1048072, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921726736134, "dur": 7084680, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921733820817, "dur": 12112, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921733833795, "dur": 43, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1668921726448636, "dur": 281337, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726450378, "dur": 86819, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726696056, "dur": 9926, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726705988, "dur": 23970, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726707382, "dur": 21138, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726738332, "dur": 2628, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668921726736972, "dur": 4033, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921733834032, "dur": 306, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668921726812932, "dur":2228, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921726815181, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668921726815261, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668921726815296, "dur":617, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668921726815945, "dur":726, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921726816671, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808370, "dur":180, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808550, "dur":70, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808620, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808628, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808642, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808646, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808656, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808658, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808668, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808671, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808680, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808683, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808694, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808697, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808713, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808717, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808730, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808734, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808746, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808749, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808759, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808766, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808777, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808780, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808795, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808822, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733808857, "dur":3194, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668921726816980, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921726816982, "dur":8014, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921726828849, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668921726828855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921726829477, "dur":410, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668921726829891, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668921726829937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921726830160, "dur":63467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668921726893631, "dur":41706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921726935345, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921726935364, "dur":109994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921727045416, "dur":1666006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921728711432, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921728711446, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921728713152, "dur":1279196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921729992355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921729992367, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921729994289, "dur":126214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730120512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921730120526, "dur":11363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730131929, "dur":151928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730283865, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921730283880, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730290366, "dur":374433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730664875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921730664888, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921730666369, "dur":2107360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921732773740, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732773755, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668921732776823, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732777039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732777720, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732780788, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1668921732780828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732780870, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1668921732782912, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668921732782945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732782953, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1668921732784887, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668921732784918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732784925, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668921732787031, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732787148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732787156, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732788374, "dur":5536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732793915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668921732793924, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1668921732795465, "dur":1012854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921726817445, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921726817445, "dur":10113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921726827559, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668921726827716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921726828603, "dur":37955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668921726866603, "dur":176891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668921727043502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921727043516, "dur":13758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668921727057351, "dur":30734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727088094, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921727088525, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727090607, "dur":77323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727167937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921727167950, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727169862, "dur":34018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727203888, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921727203902, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727206042, "dur":198386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727404433, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921727404459, "dur":9279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921727413792, "dur":1124842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921728538641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921728538654, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921728540297, "dur":322160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921728862466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921728862478, "dur":13046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921728875567, "dur":370863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921729246437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921729246449, "dur":7331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921729253826, "dur":909796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921730163631, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921730163646, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921730165882, "dur":901334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921731067221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921731067232, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921731068909, "dur":100293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921731169211, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921731169225, "dur":16063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921731185333, "dur":2605058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921733790399, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668921733790412, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668921733793475, "dur":14539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726817051, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726817052, "dur":9291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726826345, "dur":62106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668921726888494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726888520, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668921726889581, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668921726889697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726889704, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1668921726892671, "dur":68902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921726961583, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921726961798, "dur":94952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727056803, "dur":54939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727111750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921727111764, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727113831, "dur":290988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727404825, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921727404837, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727414960, "dur":314582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727729550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921727729564, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921727731463, "dur":441314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728172786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921728172800, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728175327, "dur":127459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728302795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921728302809, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728305012, "dur":123874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728428925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921728428937, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921728431418, "dur":812895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921729244319, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921729244331, "dur":9714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921729254090, "dur":732261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921729986361, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921729986377, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921729988546, "dur":608058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921730596613, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921730596628, "dur":6420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921730603089, "dur":1206036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921731809135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921731809151, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921731810912, "dur":935048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921732745968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921732745980, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921732747524, "dur":397041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921733144575, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668921733144599, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668921733146476, "dur":661563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921726817103, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921726817103, "dur":7903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921726825019, "dur":561981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1668921727387010, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921727387474, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1668921727389081, "dur":406944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921727796033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921727796046, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921727799197, "dur":204460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728003667, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921728003682, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728005588, "dur":150142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728155737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921728155750, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728157194, "dur":145857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728303060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921728303072, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728305454, "dur":147803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728453264, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921728453277, "dur":5963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921728459285, "dur":1048586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921729507876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921729507885, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921729509347, "dur":499825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921730009179, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921730009191, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921730011052, "dur":871794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921730882854, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921730882907, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921730884813, "dur":1093111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921731977932, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921731977946, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921731980523, "dur":913203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921732893734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668921732893746, "dur":6567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668921732900352, "dur":907836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668921726817169, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668921726817169, "dur":10037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668921726827207, "dur":59342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668921726886606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668921726886631, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1668921726888292, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668921726888411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668921726888494, "dur":6249985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668921733138529, "dur":669629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921726817493, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921726817493, "dur":10866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921726828360, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668921726828510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921726828700, "dur":60577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668921726889332, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1668921726889444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921726889452, "dur":155296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1668921727044987, "dur":74924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727119918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727119928, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727121344, "dur":44182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727165535, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727165551, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727167344, "dur":236582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727403933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727403946, "dur":9851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727413843, "dur":137014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727550868, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727550883, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727552429, "dur":92719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727645155, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727645168, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727646526, "dur":34892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727681424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727681435, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727682825, "dur":47668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727730500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727730512, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727732128, "dur":60833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727793036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727793045, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727797256, "dur":23217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727820480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921727820491, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921727822304, "dur":331944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728154258, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921728154273, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728155791, "dur":47169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728202966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921728202978, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728208108, "dur":138129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728346245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921728346258, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728347973, "dur":105521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728453497, "dur":777, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921728454289, "dur":6420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728461060, "dur":256166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728717234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921728717260, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921728718568, "dur":364633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729083209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921729083222, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729085105, "dur":416416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729501533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921729501549, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729505860, "dur":1753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729507619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921729507647, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921729508997, "dur":659107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921730168109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921730168119, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921730169345, "dur":1803020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921731972372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921731972385, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921731974026, "dur":919476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921732893510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668921732893524, "dur":6171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668921732899739, "dur":908467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726817530, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726817531, "dur":11303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726828834, "dur":65353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1668921726894192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726894218, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1668921726896176, "dur":3322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1668921726899504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726899512, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1668921726902369, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1668921726902750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921726904079, "dur":147992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1668921727052122, "dur":119728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727171857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921727171870, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727173788, "dur":36433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727210229, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921727210243, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727211900, "dur":114267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727326174, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921727326185, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727327661, "dur":75770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727403440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921727403592, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921727405552, "dur":750052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728155611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921728155625, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728159626, "dur":293490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728453126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921728455635, "dur":7716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728463549, "dur":400128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728863683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921728863695, "dur":12329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921728876069, "dur":152254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921729028330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921729028359, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921729029747, "dur":213651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921729243405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921729243419, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921729245025, "dur":768449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921730013482, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921730013497, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921730017405, "dur":106011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921730123423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921730123437, "dur":32210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921730155680, "dur":1146927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921731302616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921731302630, "dur":7945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921731310632, "dur":657654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921731968292, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921731968308, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921731971542, "dur":1308094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921733279647, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668921733279662, "dur":6402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668921733286107, "dur":522043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921726817225, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921726817226, "dur":9551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921726826778, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668921726826880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921726827045, "dur":59619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668921726886704, "dur":157015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668921727043722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921727043731, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668921727046995, "dur":49247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727096252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921727096799, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727099607, "dur":305625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727405236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921727405246, "dur":11590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727416887, "dur":382756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727799650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921727799664, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921727801773, "dur":207197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728008977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921728008990, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728011724, "dur":147914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728159645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921728159659, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728160859, "dur":267583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728428451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921728428481, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728435608, "dur":429369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728864983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921728865023, "dur":11499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921728876557, "dur":147414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921729023979, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921729023993, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921729025694, "dur":2039449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921731065152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921731065191, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921731066440, "dur":236475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921731302923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921731302936, "dur":7265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921731310251, "dur":1468906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921732779164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732779176, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668921732784025, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1668921732784069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732784078, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1668921732788844, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1668921732788881, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732788897, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1668921732790243, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1668921732790274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732790280, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1668921732791339, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668921732791397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732791404, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668921732792862, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1668921732792892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732792899, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1668921732794519, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1668921732794655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668921732794661, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1668921732796067, "dur":1012196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668921726817268, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668921726817268, "dur":10140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668921726827408, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1668921726827518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668921726827546, "dur":6258688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1668921733086280, "dur":721896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921726817310, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921726817311, "dur":10381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921726827692, "dur":60426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1668921726888124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921726888194, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1668921726891751, "dur":2343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921726894099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921726894380, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921726896303, "dur":1548320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite ).exe" }}
+,{ "pid":12345, "tid":10, "ts":1668921728444631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921728444642, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite ).exe" }}
+,{ "pid":12345, "tid":10, "ts":1668921728451828, "dur":139490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921728591327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921728591342, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921728593137, "dur":343667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921728936812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921728936826, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921728940620, "dur":303055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921729243682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921729243694, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921729246743, "dur":1936671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921731183478, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921731183575, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921731185313, "dur":242950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921731428272, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921731428287, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921731429603, "dur":2000635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921733430246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668921733430258, "dur":5253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668921733435555, "dur":372815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726817588, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726817589, "dur":7422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726825019, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1668921726825207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726826581, "dur":39968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1668921726866592, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1668921726866731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726867101, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1668921726870172, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668921726870285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921726870343, "dur":175682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668921727046118, "dur":59590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727105718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921727105732, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727108516, "dur":294087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727402614, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921727402630, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727405003, "dur":270906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727675917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921727675929, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727677320, "dur":115535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727792865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921727792969, "dur":3957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921727796972, "dur":376443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728173422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921728173434, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728175212, "dur":139033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728314252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921728314263, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728315976, "dur":258947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728574968, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921728574983, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728577035, "dur":284904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728861948, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921728861963, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921728863450, "dur":162021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921729025478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921729025492, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921729026848, "dur":216010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921729242865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921729242877, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921729245028, "dur":772211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730017247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921730017261, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730019600, "dur":144610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730164411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921730164427, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730166171, "dur":2866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730169042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921730169076, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921730170348, "dur":1136781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921731307138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921731307152, "dur":9703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921731316900, "dur":659875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921731976783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921731976797, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921731978802, "dur":1172638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921733151448, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668921733151462, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668921733157779, "dur":650320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921726817648, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921726817649, "dur":11288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921726828938, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1668921726829463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921726829489, "dur":4207688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1668921731037215, "dur":145655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921731182880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921731182921, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921731184919, "dur":779225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921731964153, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921731964180, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921731965675, "dur":1840493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921733806177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668921733806191, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/muham/Desktop/Unty/9. Game/Survivor ( Lite )_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668921733807956, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1668921733807960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668921733815316, "dur":5860, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668921733834413, "dur": 993, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668921733833774, "dur": 1667, "ph": "X", "name": "Write chrome-trace events", "args": {} },
